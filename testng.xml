@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/SummerSDET2023">
+        <classes>
+            <class name="org.example.pages.AlertButtons">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="org.example.pages.Frames">
+                <methods>
+                    <include name="frameSwitch"/>
+                    <include name="frameMainParentChild"/>
+                </methods>
+            </class>
+            <class name="org.example.utils.MainPracticeForm">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_1.ActionDemo">
+                <methods>
+                    <include name="demo123"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_1.BasicLocators">
+                <methods>
+                    <include name="byIdTest"/>
+                    <include name="byTagName"/>
+                    <include name="byClassName"/>
+                    <include name="byLinkedText"/>
+                    <include name="byPartialLinkText"/>
+                    <include name="byName"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_1.CssDemo">
+                <methods>
+                    <include name="cssDemo1"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_1.JS">
+                <methods>
+                    <include name="demo1"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_1.MoveToElement">
+                <methods>
+                    <include name="scroll"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_1.TextBox">
+                <methods>
+                    <include name="fillUpTheFormTest"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_1.XpathDemo">
+                <methods>
+                    <include name="hierarchicalXpathAbsolute"/>
+                    <include name="relativeXpath"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_2.BrowserWindows">
+                <methods>
+                    <include name="windowsTest"/>
+                    <include name="newWindowTest"/>
+                    <include name="newWindowMessage"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_2.Dynamic">
+                <methods>
+                    <include name="clickclick"/>
+                </methods>
+            </class>
+            <class name="DEMO.week_2.NavigationAndDropdowns">
+                <methods>
+                    <include name="demo2"/>
+                </methods>
+            </class>
+            <class name="homework.CheckBox_RadioButton_Menu">
+                <methods>
+                    <include name="artOfTesting"/>
+                </methods>
+            </class>
+            <class name="homework.Homework1_WebElements">
+                <methods>
+                    <include name="fillUpTheForm"/>
+                </methods>
+            </class>
+            <class name="homework.NambaFood">
+                <methods>
+                    <include name="mixFoodChoose"/>
+                    <include name="orderFood"/>
+                    <include name="checkOut"/>
+                </methods>
+            </class>
+            <class name="practice.AmazonIphone">
+                <methods>
+                    <include name="Iphone15Case"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
