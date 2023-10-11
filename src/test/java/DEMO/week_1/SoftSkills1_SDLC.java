@@ -62,6 +62,40 @@ public class SoftSkills1_SDLC {
     // e.Expected result (system should show the error and user should not login); f.Attachment (screenshot or video);
     // g.Severity level - Critical,Major,Medium,Low (Critical); h.Priority queue - High,Medium,Low (High); j.Environment (QA); 10.Submit to developer
 
+    // Interfaces of Selenium webdriver.
+    //The following are the Interfaces of Selenium webdriver.
+    //1. SearchContext
+    //2. WebDriver
+    //3. TakesScreenshot
+    //4. JavascriptExecutor
+    //5. Navigation
+    //6. OutputType
+    //7. WebElement
+    //8. TargetLocator
+    //9. Alert
+    //10. Action
+    //11. ExpectedConditions
+    //12. Options
+    //13. Timeouts
+    //
+    //
+    //Methods of SearchContext interface:
+    //1. findElement()
+    //2. findElements()
+    //Methods of WebDriver interface:
+    //1. close()
+    //2. get()
+    //3. getTitle()
+    //4. getPageSource()
+    //5. getCurrentUrl()
+    //6. getWindowHandle()
+    //7. getWindowHandles()
+    //8. manage()
+    //9. navigate()
+    //10. quit()
+    //11. switchTo() Methods of
+
+
     // EXCEPTIONS: NoSuchWindowException.
     //NoSuchFrameException.
     //NoSuchElementException.
