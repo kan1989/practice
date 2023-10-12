@@ -18,5 +18,5 @@ public class GIT {
     // git remote add origin https://github.com/kanybek1989/gitPractice.git - merge remote with local repository
 // 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
     // git pull origin master - merge from remote to local (master)
-
+    // git pull - merge all changes
 }
